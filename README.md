@@ -9,3 +9,4 @@
 ## Considerations/Risks
 - Main risk is bias; a tweet that uses words that might not be well received by some users on the app could be well received by its followers. This could cause incorrect predictions
 - Finding a suitable model to match a tweet to its response sentiment could be difficult; if we're unable to find a good model then this project would fail
+- Another consideration is that a single reply to the original tweet may influence or alter the sentiment of the replies grouped under the original tweet. A reply that disagrees with the original tweet that is followed by several replies concurring with the disagreement could trick the model into thinking that overall sentiment is high
